@@ -42,8 +42,20 @@
     </header>
 
     <section>
-        <div class="container-fluid">
-            Naming
+        <div class="container-fluid p-4">
+            <div class="titulo">Naming</div>
+            <blockquote class="blockquote texto">
+                There are only two hard problems in Computer Science: cache invalidation and naming things — Phil Karlton
+            </blockquote>
+            <p class="texto">
+                It is a known fact that the right styleguide can significantly increase development speed, debugging, and the implementation of new features in legacy code. Sadly, most CSS codebases are sometimes developed without any structure or naming conventions. This leads to an unmaintainable CSS codebase in the long term.
+            </p>
+            <div class="subtitulo1">Example</div>
+            <p class="texto">
+                Suppose you have block form with modifiers theme: "xmas" and simple: true and with elements input and submit, and element submit with its own modifier disabled: true for not submitting form while it is not filled:
+            </p>
+            <div class="subtitulo2 mb-2">HTML</div>
+            <code class="mb-5">&lt;form class=&quot;form form--theme-xmas form--simple&quot;&gt;<br/>  &lt;input class=&quot;form__input&quot; type=&quot;text&quot; /&gt;<br/>  &lt;input<br/>    class=&quot;form__submit form__submit--disabled&quot;<br/>    type=&quot;submit&quot; /&gt;<br/>&lt;/form&gt;</code>
         </div>
     </section>
 
